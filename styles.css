@@ -1,0 +1,88 @@
+/*css reset*/
+* {
+    margin: 0;
+    padding: 0;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    outline: none;
+  }
+
+  *:focus {
+    outline: 0 !important;
+  }
+
+  body, input, select, textarea {
+    font-family: 'Poppins', sans-serif;
+  }
+
+  #title {
+    font-weight: 300;
+    text-align: center;
+    margin: 50px 0 7px 0;
+    opacity: .9;
+  }
+
+  #description {
+    text-align: center;
+    margin-bottom: 15px;
+    font-size: 1.15rem;
+    opacity: .9;
+  }
+
+  /* body styles */
+  body {
+    max-width: 720px;
+    margin: 0 auto;
+    color: #fff;
+    background: linear-gradient(0deg, rgba(39 62 117 / 75%), rgba(39 62 117 / 75%)), url(images/bg-img.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+
+  #survey-form { 
+    background-color: #031540;
+    opacity: .9;
+    padding: 40px 60px;
+    width: 720px;
+    border-radius: 5px;
+  }
+
+  input, select, textarea {
+    margin-bottom: 15px;
+    background-color: #fff;
+  }
+
+#name, #email, #number, #dropdown {
+  width: 95%;
+  line-height: 3;
+  border-radius: 5px;
+}
+
+select {
+  height: 40px;
+}
+
+input[type="checkbox"] {
+  margin-right: 11px;
+}
+
+textarea {
+  width: 95%;
+  height: 130px;
+  border-radius: 5px;
+}
+
+#submit {
+  width: 95%;
+  height: 40px;
+  border-radius: 5px;
+  background-color: #fff;
+}
+
+::placeholder {
+  padding: 15px;
+  color: #031540;
+}
